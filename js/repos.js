@@ -72,7 +72,7 @@ Repository.prototype.featuredImage = function() {
   if (this.featured()) {
     return [
       '<div class="island-item featured-image">',
-        '<img src="/img/', this.background() ,'">',
+        '<img src="img/', this.background() ,'">',
       '</div>'
     ].join('');
   }
@@ -80,7 +80,7 @@ Repository.prototype.featuredImage = function() {
 
 Repository.prototype.headerLogo = function() {
   if (this.logo()) {
-    return '<img src="/img/' + this.logo() + '" height="21px" width="26px" class="logo"> ';
+    return '<img src="img/' + this.logo() + '" height="21px" width="26px" class="logo"> ';
   }
 }
 
