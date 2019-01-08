@@ -10529,40 +10529,40 @@ p.nobtm {
  * }
  */
 .main-header {
-  background: #af0606 url("/img/structural/header_stars.png") no-repeat center;
-  background: url("/img/structural/header_stars.png") no-repeat center, -webkit-linear-gradient(#c41200, #af0606);
-  background: url("/img/structural/header_stars.png") no-repeat center, -moz-linear-gradient(#c41200, #af0606);
-  background: url("/img/structural/header_stars.png") no-repeat center, linear-gradient(#c41200, #af0606); }
+  background: #af0606 url("../img/structural/header_stars.png") no-repeat center;
+  background: url("../img/structural/header_stars.png") no-repeat center, -webkit-linear-gradient(#c41200, #af0606);
+  background: url("../img/structural/header_stars.png") no-repeat center, -moz-linear-gradient(#c41200, #af0606);
+  background: url("../img/structural/header_stars.png") no-repeat center, linear-gradient(#c41200, #af0606); }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .main-header {
-      background: #af0606 url("/img/structural/header_stars@2x.png") no-repeat center;
-      background: url("/img/structural/header_stars@2x.png") no-repeat center, -webkit-linear-gradient(#c41200, #af0606);
-      background: url("/img/structural/header_stars@2x.png") no-repeat center, -moz-linear-gradient(#c41200, #af0606);
-      background: url("/img/structural/header_stars@2x.png") no-repeat center, linear-gradient(#c41200, #af0606);
+      background: #af0606 url("../img/structural/header_stars@2x.png") no-repeat center;
+      background: url("../img/structural/header_stars@2x.png") no-repeat center, -webkit-linear-gradient(#c41200, #af0606);
+      background: url("../img/structural/header_stars@2x.png") no-repeat center, -moz-linear-gradient(#c41200, #af0606);
+      background: url("../img/structural/header_stars@2x.png") no-repeat center, linear-gradient(#c41200, #af0606);
       background-size: 1380px auto, 100%; } }
 
 .main-header_logo,
 .ytype .main-header_logo {
-  background: url("/img/structural/header_logo.png") no-repeat; }
+  background: url("../img/structural/header_logo.png") no-repeat; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .main-header_logo,
     .ytype .main-header_logo {
-      background-image: url("/img/structural/header_logo@2x.png"); } }
+      background-image: url("../img/structural/header_logo@2x.png"); } }
   @media only screen and (max-width: 989px) {
     .responsive .main-header_logo, .responsive
     .ytype .main-header_logo {
-      background: url("/img/structural/biz_header_logo.png") no-repeat; } }
+      background: url("../img/structural/biz_header_logo.png") no-repeat; } }
   @media only screen and (max-width: 989px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 989px) and (min-resolution: 192dpi) {
     .responsive .main-header_logo, .responsive
     .ytype .main-header_logo {
-      background-image: url("/img/structural/biz_header_logo@2x.png"); } }
+      background-image: url("../img/structural/biz_header_logo@2x.png"); } }
 
 .main-header--slim .main-header_logo {
-  background: url("/img/structural/biz_header_logo.png") no-repeat;
+  background: url("../img/structural/biz_header_logo.png") no-repeat;
   background-size: 90px 47px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .main-header--slim .main-header_logo {
-      background-image: url("/img/structural/biz_header_logo@2x.png"); } }
+      background-image: url("../img/structural/biz_header_logo@2x.png"); } }
 
 @media only screen and (max-width: 989px) {
   .responsive .top-shelf {
